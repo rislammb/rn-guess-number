@@ -1,28 +1,27 @@
 {
   "expo": {
-    "name": "rn-complete-guide",
-    "slug": "rn-complete-guide",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "name": "Guess Number",
+    "slug": "guess-number",
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#f1f1f1"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.rislammb.guessnumber",
+      "versionCode": 1
+    },
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": ""
   }
 }
